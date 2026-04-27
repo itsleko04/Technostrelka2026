@@ -5,7 +5,9 @@ using System.Collections;
 
 public class Messanger : MonoBehaviour
 {
-    [SerializeField] private TextMeshProUGUI _dialogueTextField;
+    [SerializeField] private GameObject _messagePref;
+    [SerializeField] private Transform _messagesSpawnPoint;
+
     [SerializeField] private Transform _choiceRoot;
     [SerializeField] private GameObject _choiceButtonPrefab;
 
@@ -37,7 +39,9 @@ public class Messanger : MonoBehaviour
 
         foreach (Transform child in _choiceRoot) Destroy(child.gameObject);
 
-        _dialogueTextField.text = node.DialogueText;
+        MessageData newMessage = Instantiate(_messagePref, _messagesSpawnPoint.position,
+            Quaternion.identity, _messagesSpawnPoint).GetComponent<MessageData>();
+        newMessage.Serialize(node);
 
         foreach (var answer in node.Answers)
         {
@@ -55,7 +59,6 @@ public class Messanger : MonoBehaviour
 
     void EndDialogue()
     {
-        _dialogueTextField.text = "...";
         foreach (Transform child in _choiceRoot) Destroy(child.gameObject);
         Debug.Log("Диалог окончен");
     }
