@@ -1,0 +1,527 @@
+fileFormatVersion: 2
+guid: a588b57b5f0dba8439fb30240af57e4d
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LCD_Screen_highgloss
+    second: {fileID: 2100000, guid: 6043de52fb2d3a74087cd0da12950d24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LCD_Screen_lowgloss
+    second: {fileID: 2100000, guid: fa26a8c3c76c99a4ea8bdb9a66fa19ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Render
+    second: {fileID: 2100000, guid: 8f3118561af9ac540954829c9543e8c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aesop_bottles_gloss
+    second: {fileID: 2100000, guid: 72c257df73abdc0419116322327c8a27, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aesop_bottles_matt
+    second: {fileID: 2100000, guid: 753d2297351939948bd6d91a9238eb8b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: arch42_028
+    second: {fileID: 2100000, guid: 52dd127199ac5fd4ab22647214d7031a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: architrave
+    second: {fileID: 2100000, guid: 34e7d876e7668644e884555c79371505, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bathroom_fixtures_gloss
+    second: {fileID: 2100000, guid: f942efe5389b12946a7910a5cf58c8a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bathroom_fixtures_matt
+    second: {fileID: 2100000, guid: d32e7792a9f129e4a8e10e44a8bd1269, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bathroom_fixtures_trans
+    second: {fileID: 2100000, guid: d538ea16330b09d41b967ccb1aaab370, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: birdOfparadise
+    second: {fileID: 2100000, guid: 423169981a16cc94db840f847dd0e7cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: boston_fern
+    second: {fileID: 2100000, guid: 495b02229d3faa74385810f779524bfb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cabinetry
+    second: {fileID: 2100000, guid: dfa7d64c7d1cdbb478ed53deecf42256, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: colourbond_fence
+    second: {fileID: 2100000, guid: 01c055452ca28264687a294cf122f16e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cooktop
+    second: {fileID: 2100000, guid: e05be6d7b8316ba468ad7a43eb795419, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cornice
+    second: {fileID: 2100000, guid: 47279d7b00212914ba486568c728a216, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: decor_bed_three_1_gloss
+    second: {fileID: 2100000, guid: 55b7bc79aaa51a640a9280066788b3a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: decor_bed_three_1_matt
+    second: {fileID: 2100000, guid: 2ea7a225ce6f92c4a83500e36f3c8e7d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: decor_bed_three_1_trans
+    second: {fileID: 2100000, guid: 20655751b76d9bd45ba5dc9f06625bba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: decor_bed_three_2
+    second: {fileID: 2100000, guid: 6eca93a83aceab748800215a0321a932, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: decor_dining_1_gloss
+    second: {fileID: 2100000, guid: ebb9f344faa3cc84f9762f0449d53722, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: decor_dining_1_trans
+    second: {fileID: 2100000, guid: 1bee086b40109be40a5bf2f32bf5c0fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: decor_dining_2_gloss
+    second: {fileID: 2100000, guid: db3e8fdd7e248d542955e22d16ef190e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: decor_dining_2_matt
+    second: {fileID: 2100000, guid: a6208e938e1f93c4686d9968e3a0d8d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: decor_dining_2_trans
+    second: {fileID: 2100000, guid: 9cd0dadf06d66644fae4940a205aad73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: decor_ensuite_gloss
+    second: {fileID: 2100000, guid: 9bf2b4cfe91a1ee419ef4b1e0f565e14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: decor_ensuite_matt
+    second: {fileID: 2100000, guid: 9bf2b4cfe91a1ee419ef4b1e0f565e14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: decor_ensuite_trans
+    second: {fileID: 2100000, guid: 54351c68fc40cdb478c559530174b6fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: decor_family_1_gloss
+    second: {fileID: 2100000, guid: a820905f2ab75a9428943d82e2887739, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: decor_family_2_matt
+    second: {fileID: 2100000, guid: e6af488d76c7e7c40beed353e04531dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: decor_kitchen_gloss
+    second: {fileID: 2100000, guid: 677a0f4626f4d6b438e89fcdaacdd4eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: decor_kitchen_matt
+    second: {fileID: 2100000, guid: e1a4dc8ce8a4b224c9256eaf4c865603, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: decor_laundry_gloss
+    second: {fileID: 2100000, guid: 5e16c98a450946b43894b14248ef1d78, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: decor_laundry_matt
+    second: {fileID: 2100000, guid: 9b3b21e1778643046918708454e83756, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: decor_living_gloss
+    second: {fileID: 2100000, guid: df540b4a135fa8a4c814670722070662, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: decor_living_sofa_legs
+    second: {fileID: 2100000, guid: f955b80ec5aef33488d6c0c3f6811efc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: decor_living_trans
+    second: {fileID: 2100000, guid: 90cba7af77ebd454892a65d49ff57561, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: decor_master_bed_1_gloss
+    second: {fileID: 2100000, guid: bbbe28d87fb25074f979c02cc2373a3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: decor_master_bed_1_matt
+    second: {fileID: 2100000, guid: 2ec04fe9af28c904481d17b442511edf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: decor_master_bed_1_trans
+    second: {fileID: 2100000, guid: 2e0dcdfe602c649459b489921139e0a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: decor_master_bed_2
+    second: {fileID: 2100000, guid: 56b5a2497e0776e4d8643c5e6d01de5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: decor_rumpus_1_gloss
+    second: {fileID: 2100000, guid: 3796b87751fb4b24bb740b3f19938161, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: decor_rumpus_1_matt
+    second: {fileID: 2100000, guid: 0ea6fe098e1a6c747b9b5672135ac8fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: decor_rumpus_2_matt
+    second: {fileID: 2100000, guid: 3f9e62b1b03bfe54dab80b28c62c60a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: decor_rumpus_2_trans
+    second: {fileID: 2100000, guid: 8586f8a99079afd4786e0ef6eff7d13e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: decor_wir
+    second: {fileID: 2100000, guid: 1664dbd346b804242a08e23431c6673e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dishwasher
+    second: {fileID: 2100000, guid: bcbb16b1e8915ca48934ce7ad3a72691, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doors_windows_gloss
+    second: {fileID: 2100000, guid: 45f523f0e29abce47b58f14fdcd817c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doors_windows_trans
+    second: {fileID: 2100000, guid: f40d86779a63a814d92861f4e9d80997, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: downlights
+    second: {fileID: 2100000, guid: a7e68fa8a51e19643b7b16745efb4f10, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eames
+    second: {fileID: 2100000, guid: c055e74b976127e47905a4fea3905ab4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ensuite_cabinet_gloss
+    second: {fileID: 2100000, guid: 7ca3f186531c6344c9e8ecf68fb7e1f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ensuite_cabinet_mirror
+    second: {fileID: 2100000, guid: 00cda4433355e7e4d8ee346b80084a65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: file_cabinet
+    second: {fileID: 2100000, guid: 6417aba6e45421d4cae501cdc4751252, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fireplace_trans
+    second: {fileID: 2100000, guid: fd7f4e214611b5842adb39f24a037919, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: floor_ceiling_gloss
+    second: {fileID: 2100000, guid: c9a44b21c1e8c174ca1ed80220cadd65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: floor_ceiling_matt
+    second: {fileID: 2100000, guid: cd9ebf3ef9a210045b06eaa607c3fc63, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fridge
+    second: {fileID: 2100000, guid: d1c119883a2cbdf4cb0c071c88fdca67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: front_fence_gloss
+    second: {fileID: 2100000, guid: bc92490e517b9a94f9103c76acfed4b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: front_fence_matt
+    second: {fileID: 2100000, guid: 831d2a88947612e469100350a3674532, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kitchen_gloss
+    second: {fileID: 2100000, guid: 52d5357d43d9e1044a5385fa4d355f16, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kitchen_matt
+    second: {fileID: 2100000, guid: eb78f2b7632cb834193ddc1815a27dbc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: landscaping_gloss
+    second: {fileID: 2100000, guid: cbe7b8ce93c5bef4da1ecb4070f553e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: landscaping_matt
+    second: {fileID: 2100000, guid: 9ed08a093652540418624f1dbbbb2912, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: landscaping_trans
+    second: {fileID: 2100000, guid: c79c85c48dad9f84b86d9751484e32e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: light_pendants_gloss
+    second: {fileID: 2100000, guid: 0a37047cc2854094586df7e2a3b3ae42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: light_pendants_trans
+    second: {fileID: 2100000, guid: 8b29183e776d59543a502dbeb2173208, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: microwave_highgloss
+    second: {fileID: 2100000, guid: 6950fffceef6abf43bfdee052ce675b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: outdoor_bench
+    second: {fileID: 2100000, guid: 4f8d8d61c71efc84b9741d3a5b8a0263, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: outdoor_elements_gloss
+    second: {fileID: 2100000, guid: 028fcd8126646744eba1c6d7bb3f9c7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: outdoor_elements_matt
+    second: {fileID: 2100000, guid: 9797cd202c2b90542bd75a8ecbc132f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: outdoor_sofa_gloss
+    second: {fileID: 2100000, guid: d4789b93e3c1e324b8162fdbfa75c904, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: outdoor_sofa_matt
+    second: {fileID: 2100000, guid: 9f35302921eb6ef4cb5114d3bf200b7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: paling_fence
+    second: {fileID: 2100000, guid: 5ebccc6fff8b39c42a00967df08ee52d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: range_rover_trans
+    second: {fileID: 2100000, guid: a143a89deafb4dd47a139e0f14595dff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rangehood
+    second: {fileID: 2100000, guid: 4f8c2adff7ae18747980148dcf8c31dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof_gloss
+    second: {fileID: 2100000, guid: 74bac3f658c9fb24a841a3fbd1f38f7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof_matt
+    second: {fileID: 2100000, guid: 48b5bd1eeb56a4f4d82f9515e2721380, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wall_bollards
+    second: {fileID: 2100000, guid: 4678eb8292605b944bdf44a17da5c517, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wall_ovens_lowgloss
+    second: {fileID: 2100000, guid: 5bf22035431c35c47b436b6be267c587, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: walls_gloss
+    second: {fileID: 2100000, guid: 123389c42f7a7ad44a3f6eaf5f015786, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: washer_dryer_gloss
+    second: {fileID: 2100000, guid: 254f1688284fc1d4f93dc6536d773006, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: washer_dryer_matt
+    second: {fileID: 2100000, guid: be3619a1f38e5cd44aed4046a72639b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: washer_dryer_trans
+    second: {fileID: 2100000, guid: d70ddd8f7cbd56c409d49f3c11174842, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 0
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
