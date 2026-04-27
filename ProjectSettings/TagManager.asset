@@ -4,7 +4,12 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - Anchor
+  - Flame
+  - Projectile
+  - Destroyer
+  - MiniWorldCamera
+  - Water
+  - PlayerController
   layers:
   - Default
   - TransparentFX
@@ -34,10 +39,10 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - Pushable
+  - Character Collider
+  - Character Controller
+  - Teleport
   m_SortingLayers:
   - name: Default
     uniqueID: 0
