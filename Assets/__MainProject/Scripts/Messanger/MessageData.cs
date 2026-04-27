@@ -11,12 +11,10 @@ public class Answer
 
 public class MessageData : MonoBehaviour
 {
-    [SerializeField] private TextMeshProUGUI _text, _name;
-    [SerializeField] private Image _bg;
+    [SerializeField] private TextMeshProUGUI _text;
 
     public void Serialize(DialogueNode data)
     {
         _text.text = data.DialogueText;
-        _bg.sprite = data.NodeBG;
     }
 }

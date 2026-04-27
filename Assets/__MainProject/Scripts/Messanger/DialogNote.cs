@@ -7,8 +7,6 @@ public class DialogueNode : ScriptableObject
     [TextArea(3, 10)]
     public string DialogueText;
 
-    public Sprite NodeBG;
-
     [Header("Настройки ветвления")]
     public List<Answer> Answers;
 
