@@ -316,7 +316,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e49893edc01609f41a306fe6af40876a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 43a3e9a9e5c0c2146afd810efefbea39, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -338,7 +338,7 @@ GameObject:
   - component: {fileID: 6392007587156256676}
   - component: {fileID: 5142484777040027219}
   m_Layer: 5
-  m_Name: Talker2Messages
+  m_Name: SelfMessages
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -963,7 +963,7 @@ GameObject:
   - component: {fileID: 8199898314300759997}
   - component: {fileID: 4584758354377766750}
   m_Layer: 5
-  m_Name: SelfMessages
+  m_Name: Talker2Messages
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1065,7 +1065,7 @@ Transform:
   m_Children:
   - {fileID: 8263270882583244937}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: -90}
 --- !u!33 &7553463916530600570
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1147,10 +1147,10 @@ Rigidbody:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7864040620003022567}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -1309,8 +1309,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _messagePref: {fileID: 4975301013017952764, guid: 43b85ffcc0246e64296750d8ed9c2277, type: 3}
-  _selfMessagesSpawn: {fileID: 1880809876741257195}
-  _talker2MessagesSpawn: {fileID: 5384596103703281431}
+  _selfMessagesSpawn: {fileID: 5384596103703281431}
+  _talker2MessagesSpawn: {fileID: 1880809876741257195}
   _answersSpawn: {fileID: 4608736536185987584}
   _answerButtonPrefab: {fileID: 494064830985856824, guid: 55a64d1cb8aea214c9184063ec50b379, type: 3}
   _onStart:
@@ -1332,10 +1332,34 @@ MonoBehaviour:
   _decoy: {fileID: 326722041666083138, guid: 162b1927b5e9f1649b57fb34af233851, type: 3}
   OnBadEnd:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: PlayerVideoController, Assembly-CSharp
+        m_MethodName: Play
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnGoodEnd:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: PlayerVideoController, Assembly-CSharp
+        m_MethodName: Play
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!1 &8337966928437644843
 GameObject:
   m_ObjectHideFlags: 0
