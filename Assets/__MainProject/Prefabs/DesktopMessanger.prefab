@@ -189,8 +189,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -2.080017, y: -0.94000244}
-  m_SizeDelta: {x: -8.44, y: -23.18}
+  m_AnchoredPosition: {x: -2.0800018, y: 1.449997}
+  m_SizeDelta: {x: -8.44, y: -27.95}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7405304879010448499
 CanvasRenderer:
@@ -1147,10 +1147,10 @@ Rigidbody:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7864040620003022567}
-  serializedVersion: 5
+  serializedVersion: 4
   m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
+  m_Drag: 0
+  m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}

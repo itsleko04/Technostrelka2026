@@ -1,6 +1,6 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.Video;
-using System.Collections;
 
 public class PlayerVideoController : MonoBehaviour
 {
@@ -17,7 +17,8 @@ public class PlayerVideoController : MonoBehaviour
             mtr.SetFloat("_ApertureSize", 1 - .01f * i);
             yield return new WaitForSeconds(.01f);
         }
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(1.5f);
+        _player.gameObject.SetActive(true);
         _player.clip = isWin ? _win : _lose;
         _player.Play();
     }

@@ -127,8 +127,8 @@ public class Messanger : MonoBehaviour
             return;
 
         if(lastNode.IsGoodEnd)
-            OnGoodEnd.Invoke();
+            GlobalFinishController.Instance.DoGoodFinish();
         else
-            OnBadEnd.Invoke();
+            GlobalFinishController.Instance.DoBadFinish();
     }
 }
