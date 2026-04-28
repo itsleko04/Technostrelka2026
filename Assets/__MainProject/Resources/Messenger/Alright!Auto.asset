@@ -10,11 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb6f1bdc9f7b07438ea6bd4f63e2413, type: 3}
-  m_Name: Great!Auto
+  m_Name: Alright!Auto
   m_EditorClassIdentifier: 
-  DialogueText: "\u041E\u0442\u043B\u0438\u0447\u043D\u043E!"
+  IsSelf: 0
+  DialogueText: "\u0412\u0441\u0451 \u0441 \u0442\u043E\u0431\u043E\u0439 \u043F\u043E\u043D\u044F\u0442\u043D\u043E..."
   Answers: []
   AutoNext: 1
-  Delay: 3
-  NextNode: {fileID: 11400000, guid: 63a205168bcf2bf4c81c9cb5c2f95ed7, type: 2}
+  Delay: 1
+  NextNode: {fileID: 11400000, guid: a5df1baf96c356643b080ebcc0d65f5e, type: 2}
   IsEndNode: 0

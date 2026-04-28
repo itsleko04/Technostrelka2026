@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ceb6f1bdc9f7b07438ea6bd4f63e2413, type: 3}
   m_Name: IDontHaveAnyone!Auto
   m_EditorClassIdentifier: 
+  IsSelf: 0
   DialogueText: "\u042F \u0431\u043E\u043B\u044C\u0448\u0435 \u043D\u0438\u043A\u043E\u0433\u043E
     \u043D\u0435 \u043C\u043E\u0433\u0443\n \u043F\u043E\u043F\u0440\u043E\u0441\u0438\u0442\u044C,
     \u043A\u0440\u043E\u043C\u0435 \u0442\u0435\u0431\u044F..."

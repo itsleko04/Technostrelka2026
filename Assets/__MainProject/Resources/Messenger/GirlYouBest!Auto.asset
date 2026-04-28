@@ -10,11 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb6f1bdc9f7b07438ea6bd4f63e2413, type: 3}
-  m_Name: Alright!Auto
+  m_Name: GirlYouBest!Auto
   m_EditorClassIdentifier: 
-  DialogueText: "\u0412\u0441\u0451 \u0441 \u0442\u043E\u0431\u043E\u0439 \u043F\u043E\u043D\u044F\u0442\u043D\u043E..."
+  IsSelf: 0
+  DialogueText: "\u041F\u043E\u0434\u0440\u0443\u0433\u0430, \u043D\u0443 \u043F\u0440\u043E\u0441\u0442\u043E
+    \u0441\u043F\u0430\u0441\u0430\u0435\u0448\u044C!"
   Answers: []
   AutoNext: 1
   Delay: 1
-  NextNode: {fileID: 11400000, guid: a5df1baf96c356643b080ebcc0d65f5e, type: 2}
+  NextNode: {fileID: 11400000, guid: f55a19078a546c4478e48cc9f929a38a, type: 2}
   IsEndNode: 0

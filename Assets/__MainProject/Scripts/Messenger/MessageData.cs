@@ -13,8 +13,8 @@ public class MessageData : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI _text;
 
-    public void Serialize(DialogueNode data)
+    public void Serialize(string text)
     {
-        _text.text = data.DialogueText;
+        _text.text = text;
     }
 }

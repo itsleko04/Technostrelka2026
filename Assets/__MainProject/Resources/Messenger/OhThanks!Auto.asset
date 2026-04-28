@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb6f1bdc9f7b07438ea6bd4f63e2413, type: 3}
-  m_Name: GirlYouBest!Auto
+  m_Name: OhThanks!Auto
   m_EditorClassIdentifier: 
-  DialogueText: "\u041F\u043E\u0434\u0440\u0443\u0433\u0430, \u043D\u0443 \u043F\u0440\u043E\u0441\u0442\u043E
-    \u0441\u043F\u0430\u0441\u0430\u0435\u0448\u044C!"
+  IsSelf: 0
+  DialogueText: "\u041E\u0439, \u0441\u043F\u0430\u0441\u0438\u0431\u043E\u0447\u043A\u0438)"
   Answers: []
   AutoNext: 1
   Delay: 1

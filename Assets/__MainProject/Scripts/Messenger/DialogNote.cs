@@ -4,6 +4,8 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "NewDialogueNode", menuName = "Dialogue/Node")]
 public class DialogueNode : ScriptableObject
 {
+    public bool IsSelf=true;
+
     [TextArea(3, 10)]
     public string DialogueText;
 

@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb6f1bdc9f7b07438ea6bd4f63e2413, type: 3}
-  m_Name: ITellYouOnWeekends!Auto
+  m_Name: Nooo!Auto
   m_EditorClassIdentifier: 
-  DialogueText: "\u042F \u0440\u0430\u0441\u0441\u043A\u0430\u0437\u044B\u0432\u0430\u043B\u0430
-    \u043E\u0431 \u044D\u0442\u043E\u043C\n\u043D\u0430 \u0432\u044B\u0445\u043E\u0434\u043D\u044B\u0445!"
+  IsSelf: 0
+  DialogueText: "\u0411\u043B\u0438\u043D."
   Answers: []
-  AutoNext: 0
-  Delay: 1
-  NextNode: {fileID: 11400000, guid: 9d0bd1b4350b1784a8d4154cc720f00b, type: 2}
+  AutoNext: 1
+  Delay: 2
+  NextNode: {fileID: 11400000, guid: 0d9352c2a8d36374e9099ab8d08998cc, type: 2}
   IsEndNode: 0
