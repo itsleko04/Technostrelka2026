@@ -20,5 +20,5 @@ public class DialogueNode : ScriptableObject
 
     [Header("Финальный узел")]
     public bool IsEndNode;
-    public UnityEvent OnEnd = new UnityEvent();
+    public bool IsGoodEnd;
 }

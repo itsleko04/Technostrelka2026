@@ -62,8 +62,7 @@ public class Messanger : MonoBehaviour
         else if (node.IsEndNode)
         {
             DisplayNode(node, spawnPoint);
-            node.OnEnd.Invoke();
-            EndDialogue();
+            EndDialogue(node);
             return;
         }
 
@@ -83,7 +82,7 @@ public class Messanger : MonoBehaviour
                     StartCoroutine(WaitToNext(answer.NextNode));
                 }
                 else
-                    EndDialogue();
+                    EndDialogue(node);
             });
         }
     }
@@ -121,8 +120,15 @@ public class Messanger : MonoBehaviour
             animator.StopAnim();
     }
 
-    void EndDialogue()
+    void EndDialogue(DialogueNode lastNode)
     {
         Debug.Log("Диалог окончен");
+        if (!lastNode.IsEndNode)
+            return;
+
+        if(lastNode.IsGoodEnd)
+            OnGoodEnd.Invoke();
+        else
+            OnBadEnd.Invoke();
     }
 }
