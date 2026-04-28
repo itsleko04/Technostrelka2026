@@ -22,6 +22,8 @@ public class Messanger : MonoBehaviour
     [Header("Заглушка для красивого отображения")]
     [SerializeField] private GameObject _decoy;
 
+    [SerializeField] private UnityEvent OnBadEnd, OnGoodEnd;
+
     private void Start()
     {
         _onStart.Invoke();
@@ -60,6 +62,7 @@ public class Messanger : MonoBehaviour
         else if (node.IsEndNode)
         {
             DisplayNode(node, spawnPoint);
+            node.OnEnd.Invoke();
             EndDialogue();
             return;
         }

@@ -15,7 +15,10 @@ MonoBehaviour:
   IsSelf: 0
   DialogueText: "\u041F\u0440\u043E\u0435\u0445\u0430\u043B\u0438."
   Answers: []
-  AutoNext: 0
+  AutoNext: 1
   Delay: 2
-  NextNode: {fileID: 0}
+  NextNode: {fileID: 11400000, guid: 63a205168bcf2bf4c81c9cb5c2f95ed7, type: 2}
   IsEndNode: 0
+  OnEnd:
+    m_PersistentCalls:
+      m_Calls: []
