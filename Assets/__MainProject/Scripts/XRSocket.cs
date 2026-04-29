@@ -4,18 +4,28 @@ using UnityEngine.UI;
 using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.XR.Interaction.Toolkit.Interactables;
 
-public class UIStackSocket : MonoBehaviour
+public class XRSocket : MonoBehaviour
 {
-    [SerializeField] private RectTransform container; // Объект с VerticalLayoutGroup
-    [SerializeField] private float snapDistance = 0.2f;
+    public RectTransform Container => _container;
+    [SerializeField] private RectTransform _container; // Объект с VerticalLayoutGroup
+    [SerializeField] private float _snapDistance = 0.2f;
 
-    private VerticalLayoutGroup layoutGroup;
-    private List<XRGrabInteractable> snappedPanels = new List<XRGrabInteractable>();
+    private VerticalLayoutGroup _layoutGroup;
+    public List<XRGrabInteractable> SnapPanels => _snappedPanels;
+    private List<XRGrabInteractable> _snappedPanels = new List<XRGrabInteractable>();
 
     void Awake()
     {
-        if (container == null) container = GetComponent<RectTransform>();
-        layoutGroup = container.GetComponent<VerticalLayoutGroup>();
+        if (_container == null) _container = GetComponent<RectTransform>();
+        _layoutGroup = _container.GetComponent<VerticalLayoutGroup>();
+    }
+
+    private void Start()
+    {
+        for(int i = 0; i < _container.childCount; i++)
+        {
+            _snappedPanels.Add(_container.GetChild(i).GetComponent<XRGrabInteractable>());
+        }
     }
 
     private void OnTriggerEnter(Collider other)
@@ -47,22 +57,22 @@ public class UIStackSocket : MonoBehaviour
 
     public void SnapToContainer(XRGrabInteractable panel)
     {
-        panel.transform.SetParent(container);
+        panel.transform.SetParent(_container);
 
         // Сбрасываем локальные трансформации, чтобы Layout Group подхватил объект
         panel.transform.localPosition = Vector3.zero;
         panel.transform.localRotation = Quaternion.identity;
         panel.transform.localScale = Vector3.one;
 
-        if (!snappedPanels.Contains(panel))
+        if (!_snappedPanels.Contains(panel))
         {
-            snappedPanels.Add(panel);
+            _snappedPanels.Add(panel);
             // Подписываемся на повторный захват, чтобы вытащить из сокета
             panel.selectEntered.AddListener(OnPanelGrabbedAgain);
         }
 
         // Принудительно обновляем Layout
-        LayoutRebuilder.ForceRebuildLayoutImmediate(container);
+        LayoutRebuilder.ForceRebuildLayoutImmediate(_container);
     }
 
     private void OnPanelGrabbedAgain(SelectEnterEventArgs args)
@@ -71,9 +81,9 @@ public class UIStackSocket : MonoBehaviour
 
         // Возвращаем в мировое пространство или в корень сцены, когда вытаскиваем
         panel.transform.SetParent(null);
-        snappedPanels.Remove(panel);
+        _snappedPanels.Remove(panel);
         panel.selectEntered.RemoveListener(OnPanelGrabbedAgain);
 
-        LayoutRebuilder.ForceRebuildLayoutImmediate(container);
+        LayoutRebuilder.ForceRebuildLayoutImmediate(_container);
     }
 }
