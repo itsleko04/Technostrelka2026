@@ -10,6 +10,8 @@ public class SocketsChecker : MonoBehaviour
     public void Check()
     {
         bool allRight = true;
+        if (_rightSocket.SnapPanels.Count == 0 || _wrongSocket.SnapPanels.Count == 0)
+            allRight = false;
         foreach (XRGrabInteractable obj in _rightSocket.SnapPanels)
         {
             if(!obj.GetComponent<SocketItem>().IsRight)

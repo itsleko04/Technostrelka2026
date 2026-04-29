@@ -5,6 +5,7 @@ public class ScoreCounter : MonoBehaviour
 {
     public static ScoreCounter Instance;
 
+    public int Score => _score;
     private int _score;
     [SerializeField] private TextMeshProUGUI _scoreTxt;
 
