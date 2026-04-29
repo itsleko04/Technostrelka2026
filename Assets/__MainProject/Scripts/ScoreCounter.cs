@@ -26,6 +26,6 @@ public class ScoreCounter : MonoBehaviour
 
     public void UpdateUI()
     {
-        _scoreTxt.text = $"Ваш счёт:\n{_score}$";
+        _scoreTxt.text = _score.ToString();
     }
 }

@@ -24,6 +24,8 @@ public class Messanger : MonoBehaviour
 
     [SerializeField] private UnityEvent OnBadEnd, OnGoodEnd;
 
+    [SerializeField] private StepFinalData _badEndData, _goodEndData;
+
     private void Start()
     {
         _onStart.Invoke();
@@ -127,8 +129,8 @@ public class Messanger : MonoBehaviour
             return;
 
         if(lastNode.IsGoodEnd)
-            GlobalFinishController.Instance.DoGoodFinish();
+            GlobalFinishController.Instance.DoGoodFinish(_goodEndData);
         else
-            GlobalFinishController.Instance.DoBadFinish();
+            GlobalFinishController.Instance.DoBadFinish(_badEndData);
     }
 }

@@ -1,7 +1,7 @@
 using UnityEngine;
 
-public class SocketItem : ScriptableObject
+public class SocketItem : MonoBehaviour
 {
-    public bool IsRight;
+    public bool IsRight => _isRight;
     [SerializeField] private bool _isRight;
 }

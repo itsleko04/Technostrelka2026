@@ -20,14 +20,6 @@ public class XRSocket : MonoBehaviour
         _layoutGroup = _container.GetComponent<VerticalLayoutGroup>();
     }
 
-    private void Start()
-    {
-        for(int i = 0; i < _container.childCount; i++)
-        {
-            _snappedPanels.Add(_container.GetChild(i).GetComponent<XRGrabInteractable>());
-        }
-    }
-
     private void OnTriggerEnter(Collider other)
     {
         // Проверяем, что в триггер попала панель с XRGrabInteractable

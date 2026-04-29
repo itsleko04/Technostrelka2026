@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Video;
+using static UnityEditor.Experimental.GraphView.GraphView;
 
 public class PlayerVideoController : MonoBehaviour
 {
@@ -21,6 +22,12 @@ public class PlayerVideoController : MonoBehaviour
         _player.gameObject.SetActive(true);
         _player.clip = isWin ? _win : _lose;
         _player.Play();
+        yield return new WaitForSeconds(10);
+        _player.Stop();
+        _player.clip = null;
+        _player.gameObject.SetActive(false);
+        yield return new WaitForSeconds(12);
+        mtr.SetFloat("_ApertureSize", 1);
     }
 
     public void Play(bool isWin)

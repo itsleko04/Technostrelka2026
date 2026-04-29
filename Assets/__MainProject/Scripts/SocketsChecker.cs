@@ -4,13 +4,11 @@ using UnityEngine.XR.Interaction.Toolkit.Interactables;
 
 public class SocketsChecker : MonoBehaviour
 {
+    [SerializeField] private StepFinalData _badEnd, _goodEnd;
     [SerializeField] private XRSocket _rightSocket, _wrongSocket, _allSocket;
 
     public void Check()
     {
-        if (_allSocket.SnapPanels.Count > 0)
-            return;
-
         bool allRight = true;
         foreach (XRGrabInteractable obj in _rightSocket.SnapPanels)
         {
@@ -28,8 +26,8 @@ public class SocketsChecker : MonoBehaviour
         }
 
         if (allRight)
-            GlobalFinishController.Instance.DoGoodFinish();
+            GlobalFinishController.Instance.DoGoodFinish(_goodEnd);
         else
-            GlobalFinishController.Instance.DoBadFinish();
+            GlobalFinishController.Instance.DoBadFinish(_badEnd);
     }
 }
